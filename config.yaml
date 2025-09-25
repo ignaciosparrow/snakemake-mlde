@@ -1,0 +1,13 @@
+run_tag: "SBPase"
+sample_name: "Q30Reads"
+
+inputs:
+  ref: "ref/ref.fasta"
+  prot_ref: "ref/prot_ref.fasta"
+
+parameters:
+  longread_progress: 10000
+  target_length: 6262
+  length_tolerance: 200
+  backbone_tolerance_threshold: 5
+  vcf_min_qual: 10
